@@ -55,16 +55,17 @@ def getCalls():
         data['employees'][i]['marketing']=MARKETING[i]
         data['employees'][i]['sales']=SALES[i]
 
-    with open('res.json','w',encoding='windows-1256') as f:
+    with open('calls.json','w',encoding='windows-1256') as f:
         json.dump(data,f,indent=4)
 
 print('please make sure that marketing files are in the same directory with this exe')
 print("civil marketing = 'civil.xlsx'")
 print("arch marketing = 'arch.xlsx'")
 print("mech marketing = 'mech.xlsx'")
-
+print('// source code for this script @')
+print('https://github.com/oelshaf3y/CADMasters-Alex')
 def totalCalls():
-    with open('res.json',encoding='utf-8') as f:
+    with open('calls.json',encoding='utf-8') as f:
         data = json.load(f)
     print('\nthose are the total calls for your employees\nfrom the day they started to work for you.\nto calculate for more employees please edit the .json file.')
     print()
