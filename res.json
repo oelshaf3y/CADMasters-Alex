@@ -1,0 +1,29 @@
+{
+    "employees": [
+        {
+            "name": "shaf3y",
+            "marketing": 0,
+            "sales": 7
+        },
+        {
+            "name": "radwa",
+            "marketing": 0,
+            "sales": 0
+        },
+        {
+            "name": "eslam",
+            "marketing": 0,
+            "sales": 0
+        },
+        {
+            "name": "yasmeen",
+            "marketing": 0,
+            "sales": 0
+        },
+        {
+            "name": "ali",
+            "marketing": 0,
+            "sales": 0
+        }
+    ]
+}
