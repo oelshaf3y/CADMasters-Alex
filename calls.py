@@ -34,7 +34,7 @@ def getCalls():
     date=date.strftime('%a %dth of %b')
     print('Calculating calls of (',date,')')
     marketingFiles=["civil.xlsx",'arch.xlsx','mech.xlsx']
-    with open('res.json',encoding='utf-8') as f:
+    with open('calls.json',encoding='utf-8') as f:
         data = json.load(f)
     employees=[]
     oldMarketing=[]
